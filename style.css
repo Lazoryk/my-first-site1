@@ -30,11 +30,8 @@ a {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-}
-
-.section {
-  /* padding-left: 15px;
-  padding-right: 15px; */
+  padding-left: 15px;
+  padding-right: 15px;
 }
 /* !0px - 375px */
 /*  !  ------------HEDER --------------*/
@@ -68,46 +65,57 @@ a {
 .header-menu-list {
   display: flex;
   column-gap: 4px;
-  row-gap: 24px;
+  row-gap: 36px;
   flex-direction: column;
   align-items: center;
 
 }
 
 .header-menu-item {
-  font-size: 48px;
+  /* font-size: 40px;
   text-transform: uppercase;
   flex-wrap: wrap;
   border: 3px solid red;
-  border-radius: 55px;
+  border-radius: 65px; */
 }
 .header-menu-link {
   padding: 8px 16px;
   transition: all .3s;
+  font-size: 40px;
+  text-transform: uppercase;
+  flex-wrap: wrap;
+  border: 3px solid red;
+  border-radius: 65px;
+  margin-bottom: 5px;
 }
-
 .header-menu-link:hover {
   transition: 1;
 }
-
-.header-menu-item:hover {
+.header-menu-link-team:hover {
+  width: 100%;
+  border: none;
   background-color: #85d4ff;
+  color: black;
   border-radius: 65px;
-  font-size: 40px;
+  font-size: 45px;
   border-color: white;
+  
 }
 
 .header-menu-link-agency:hover {
   background-color: #ff6f93;
+  color: black;
   border-radius: 65px;
-  font-size: 40px;
+  font-size: 45px;
   border-color: white;
 }
 
-.header-menu-link-contact:hover {
+.header-menu-link-contact:is(:hover, :focus) {
   background-color: #ffe343;
+  outline: none;
+  color: black;
   border-radius: 65px;
-  font-size: 40px;
+  font-size: 45px;
   border-color: white;
 }
 /* !button-modal */
@@ -135,10 +143,57 @@ a {
   border-radius: 5px;
   cursor: pointer;
   transition: .5s;
+  margin-left: auto;
+  margin-right: auto;
 }
 .button:hover{
   background-color: #8200be;
   color: rgb(255, 255, 255);
+}
+.mymodal{
+  display:none;
+}
+
+.mymodal .overlay{
+  position:fixed;
+  left:0;
+  top:0;
+  width:100%;
+  height:100%;
+  /* background: rgba(0,0,0,0.7); */
+  z-index: 10;
+}
+
+.mymodal .content{
+  display:block;
+  margin:50px auto;
+  width:500px;
+  min-height:300px;
+  background-color: #fefefe;
+  border-radius: 10px;
+  padding:20px;
+  color: #333333;
+  position:relative;
+}
+
+.mymodal .close{
+  position:absolute;
+  right:20px;
+  top:20px;
+  transition: .5s;
+  cursor: pointer;
+}
+
+.mymodal .close:hover{
+  transform: rotate(180deg);
+}
+
+@media(max-width:550px){
+  .mymodal .team-content{
+    width:90%;
+    margin-top: 5px;
+    height:90%;
+  }
 }
 /* !/button-modal */
 /* !SECTION team */
@@ -146,7 +201,7 @@ a {
   display: flex;
   justify-content: space-around;
   flex-direction: column;
-  padding: 25px 15px;
+  padding: 25px 0;
 }
 .bike__column{
   display: flex;
@@ -172,7 +227,6 @@ a {
   margin-left: 100px; 
 }
 .bike__text{
-  max-width: 420px;
   font-size: 20px;
   line-height: 20px;
   text-align: justify;
@@ -215,7 +269,7 @@ a {
   text-align: center;
 }
 .openCar:hover{
-  background-color: #fae468;
+  background-color: #ffda08;
   color: #000000;
   font-size: bold;
   transition: 1;
@@ -262,15 +316,22 @@ a {
 }
 .bike__text1{
   font-size: 22px;
-  max-width: 420px;
-  text-align: justify;
+  max-width: 300px;
+  text-align: center;
+  display: flex;
   margin-bottom: 8px;
-  font-weight: 1000px;
+  font-weight: 900;
   color: rgb(0, 0, 0);
+  margin-left: auto;
+  margin-right: auto;
 }
-.bike__text1 span{
+.short-title{
   color: #ff0000;
   font-weight: 600;
+  font-size: 22px;
+  justify-content: center;
+  display: flex;
+
 }
 /* !375px -  425px */
 @media screen and (min-width: 375px) {
@@ -302,15 +363,17 @@ a {
 }
 /* !620px -  768px */
 @media screen and (min-width: 768px) {
-
+  .header{
+    background-color: rgb(75, 75, 75);
+  }
   .container {
     min-width: 767px;
-    background-color: rgb(75, 75, 75);
   }
   .header-menu-item{
     border: none;
   }
   .header-wrapper {
+    width: 100%;
     display: flex;
     flex-direction: row;
   }
