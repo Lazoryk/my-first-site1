@@ -6,6 +6,7 @@ body {
   color: #131313;
   background: linear-gradient(45deg, #4568DC, #B06AB3);
 }
+img,
 h1,
 h2,
 h3,
@@ -465,11 +466,9 @@ button:hover {
   .container {
     width: 1439px;
   }
-
   .header-menu-list {
     column-gap: 60px;
   }
-
   .header-menu-item {
     font-size: 64px;
   }
@@ -477,7 +476,6 @@ button:hover {
 .mymodal {
   display: none;
 }
-
 .mymodal .overlay {
   position: fixed;
   left: 0;
@@ -486,7 +484,6 @@ button:hover {
   height: 100%;
   background: rgba(0, 0, 0, 0.7);
 }
-
 .mymodal .content {
   display: block;
   margin: 50px auto;
@@ -523,6 +520,9 @@ h3 {
   }
 }
 /* !SECTION----INFO--SECTION */
+.container{
+  max-width: 320px;
+}
 .info__item-title {
   font-size: 25px;
   text-align: center;
@@ -562,14 +562,13 @@ h3 {
   margin-bottom: 20px;
 }
 .poo1{
-  display: block;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 20px;
   border-radius: 10px;
   box-shadow: 5px 5px 20px rgb(255, 255, 255);
-  width: 290px;
-}
-.color-item1{
-  padding: 10px;
+  width: 100%;
 }
 /* !/SECTION------ANIMATOR */
 /* !SECTION------window modal*/
