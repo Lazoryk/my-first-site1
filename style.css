@@ -47,6 +47,7 @@ a {
 }
 .header-logo-img {
   width: 100%;
+  box-shadow:
 }
 .header-menu {
   display: flex;
@@ -203,7 +204,7 @@ button:hover {
   display: flex;
   justify-content: space-around;
   flex-direction: column;
-  padding: 10px;
+  /* padding: 10px; */
   margin-bottom: 2px;
 }
 .bike__column{
@@ -231,9 +232,9 @@ button:hover {
 }
 .bike__text{
   font-size: 20px;
-  line-height: 20px;
   text-align: justify;
   color: rgba(255, 255, 255, 0.87);
+  text-justify: inter-word;
 }
 .openModal{
   margin-top: 50px;
@@ -332,6 +333,7 @@ button:hover {
   color: rgb(0, 0, 0);
   margin-left: auto;
   margin-right: auto;
+  text-justify: inter-word;
 }
 .short-title{
   color: #000000;
@@ -342,28 +344,24 @@ button:hover {
 }
 /* !375px -  425px */
 @media screen and (min-width: 375px) {
-
   .container {
     min-width: 300px;
   }
 }
 /* !425px -  540px */
 @media screen and (min-width: 425px) {
-
   .container {
-    min-width: 425px;
+    min-width: 325px;
   }
 }
 /* !/425px -  540px */
 @media screen and (min-width: 540px) {
-
   .container {
     min-width: 539px;
   }
 }
 /* !540px -  620px */
 @media screen and (min-width: 652px) {
-
   .container {
     min-width: 651px;
   }
@@ -671,6 +669,52 @@ footer {
   cursor: pointer;
 }
 /* !/FOTTER-DISTRBUTED SECTION */
+@media screen and (min-width: 425px) {
+
+  .bike__text1 {
+    min-width: 400px;
+    font-size: 27px;
+    text-justify: inter-word;
+  }
+  .bike__text{
+    font-size: 25px;
+    text-justify: inter-word;
+  }
+  .short-title{
+    font-size: 27px;
+    text-justify: inter-word;
+  }
+  .button{
+    padding: 20px 40px;
+  }
+  .bike-list-item-place{
+    font-size: 18px;
+    font-weight: none;
+  }
+  .bike__list-item{
+    font-size: 22px;
+  }
+  .info__item-title{
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+  .info__item-text{
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .animator-title{
+    font-size: 35px;
+  }
+  .poo1{
+    width: 370px;
+  }
+  .bike__inner{
+    padding: 0;
+  }
+  .modal-window{
+    padding: 20px 40px;
+  }
+}
 /* .team{
   padding: 100px 0 150px;
 }
