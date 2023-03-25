@@ -31,9 +31,8 @@ a {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  /* padding-left: 5px;
-  padding-right: 5px; */
-  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 /* !0px - 375px */
 /*  !  ------------HEDER --------------*/
@@ -345,13 +344,13 @@ button:hover {
 /* !375px -  425px */
 @media screen and (min-width: 375px) {
   .container {
-    min-width: 300px;
+    min-width: 375px;
   }
 }
 /* !425px -  540px */
 @media screen and (min-width: 425px) {
   .container {
-    min-width: 325px;
+    min-width: 425px;
   }
 }
 /* !/425px -  540px */
@@ -372,7 +371,7 @@ button:hover {
     background-color: rgb(75, 75, 75);
   }
   .container {
-    min-width: 967px;
+    min-width: 768px;
     font-size: 10px;
   }
   .header-menu-item{
@@ -564,11 +563,10 @@ h3 {
 }
 .poo1{
   display: block;
-  margin: 0 auto;
   margin-bottom: 20px;
   border-radius: 10px;
-  box-shadow: 5px 5px 20px rgb(255, 255, 255);;
-  width: 320px;
+  box-shadow: 5px 5px 20px rgb(255, 255, 255);
+  width: 290px;
 }
 .color-item1{
   padding: 10px;
@@ -713,6 +711,9 @@ footer {
   }
   .modal-window{
     padding: 20px 40px;
+  }
+  .bike-list-item-place{
+    margin-top: 8px;
   }
 }
 /* .team{
