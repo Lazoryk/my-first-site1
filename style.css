@@ -31,8 +31,9 @@ a {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 5px;
-  padding-right: 5px;
+  /* padding-left: 5px;
+  padding-right: 5px; */
+  padding: 10px;
 }
 /* !0px - 375px */
 /*  !  ------------HEDER --------------*/
@@ -202,7 +203,7 @@ button:hover {
   display: flex;
   justify-content: space-around;
   flex-direction: column;
-  padding: 25px 0;
+  padding: 10px;
   margin-bottom: 2px;
 }
 .bike__column{
@@ -343,7 +344,7 @@ button:hover {
 @media screen and (min-width: 375px) {
 
   .container {
-    min-width: 374px;
+    min-width: 300px;
   }
 }
 /* !425px -  540px */
@@ -570,6 +571,9 @@ h3 {
   border-radius: 10px;
   box-shadow: 5px 5px 20px rgb(255, 255, 255);;
   width: 320px;
+}
+.color-item1{
+  padding: 10px;
 }
 /* !/SECTION------ANIMATOR */
 /* !SECTION------window modal*/
