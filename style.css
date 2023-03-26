@@ -367,7 +367,7 @@ button:hover {
 /* !540px -  620px */
 @media screen and (min-width: 652px) {
   .container {
-    min-width: 651px;
+    min-width: 652px;
   }
 }
 /* !620px -  768px */
@@ -477,45 +477,6 @@ button:hover {
     font-size: 64px;
   }
 }
-.mymodal {
-  display: none;
-}
-.mymodal .overlay {
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.7);
-}
-.mymodal .content {
-  display: block;
-  margin: 50px auto;
-  width: 500px;
-  min-height: 300px;
-  background-color: #fefefe;
-  border-radius: 10px;
-  padding: 20px;
-  color: #333333;
-  position: relative;
-}
-
-.mymodal .close {
-  position: absolute;
-  right: 20px;
-  top: 20px;
-  transition: .5s;
-  cursor: pointer;
-}
-
-.mymodal .close:hover {
-  transform: rotate(180deg);
-}
-
-h3 {
-  margin-top: 0;
-}
-
 @media(max-width:550px) {
   .mymodal .content {
     width: 90%;
@@ -685,7 +646,8 @@ h3 {
     text-justify: inter-word;
   }
   .button{
-    padding: 20px 40px;
+    padding: 25px 45px;
+    font-size: 16px;
   }
   .bike-list-item-place{
     font-size: 18px;
@@ -695,7 +657,7 @@ h3 {
     font-size: 22px;
   }
   .info__item-title{
-    font-size: 30px;
+    font-size: 40px;
     margin-bottom: 15px;
   }
   .info__item-text{
@@ -703,7 +665,7 @@ h3 {
     line-height: 30px;
   }
   .animator-title{
-    font-size: 35px;
+    font-size: 40px;
   }
   .poo1{
     width: 370px;
@@ -712,7 +674,10 @@ h3 {
     padding: 0;
   }
   .modal-window{
-    padding: 20px 40px;
+    padding: 25px 45px;
+    font-size: 16px;
+    margin-bottom: 35px;
+    margin-top: 40px;
   }
   .bike-list-item-place{
     margin-top: 8px;
