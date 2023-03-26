@@ -378,12 +378,41 @@ button:hover {
   /* .header{
     background-color: rgb(75, 75, 75);
   } */
+  .animator-title{
+    width: 500px;
+    font-size: 48px;
+  }
+  .button{
+    padding: 27px 55px;
+    font-size: 19px;
+  }
+  .bike__inner{
+    margin-bottom: 15px;
+  }
+  .bike__list-item{
+    font-size: 24px;
+  }
+  .bike-slider__item{
+    width: 700px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 6px 8px 15px rgb(0, 0, 0);
+  }
+  .bike-slider{
+    box-shadow: none;
+  }
+  .bike__text1{
+    max-width: 500px;
+    font-size: 60px;
+  }
   .header-menu-list{
     font-size: 40px;
   }
   .container {
     min-width: 768px;
     font-size: 10px;
+    margin-bottom: 25px;
   }
   .header-menu-item{
     border: none;
@@ -626,7 +655,7 @@ button:hover {
   background-color: #fff;
   color: #333;
   padding: 10px 20px;
-  border: none;
+  border:t none;
   border-radius: 5px;
   cursor: pointer;
 }
@@ -635,7 +664,7 @@ button:hover {
 
   .bike__text1 {
     min-width: 400px;
-    font-size: 27px;
+    font-size: 30px;
     text-justify: inter-word;
   }
   .bike__text{
@@ -658,7 +687,7 @@ button:hover {
     font-size: 22px;
   }
   .info__item-title{
-    font-size: 40px;
+    font-size: 42px;
     margin-bottom: 15px;
   }
   .info__item-text{
