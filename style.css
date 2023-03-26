@@ -120,7 +120,6 @@ a {
 }
 .header-menu-item {
   text-transform: uppercase;
-  flex-wrap: wrap;
   /* font-size: 40px;
   text-transform: uppercase;
   flex-wrap: wrap;
@@ -302,7 +301,6 @@ button:hover {
 }
 .bike-slider {
   box-shadow: 4px 5px 15px rgb(0, 0, 0);
-  flex-direction: column;
   border-radius: 8px;
 }
 .bike__list-item{
@@ -378,6 +376,9 @@ button:hover {
   /* .header{
     background-color: rgb(75, 75, 75);
   } */
+  .animator-section{
+    
+  }
   .animator-title{
     width: 500px;
     font-size: 48px;
@@ -596,7 +597,6 @@ button:hover {
 .footer-container {
   max-width: 1200px;
   margin: 0 auto;
-  flex-wrap: wrap;
   justify-content: space-between;
 }
 
