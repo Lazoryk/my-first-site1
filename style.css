@@ -1,9 +1,9 @@
 
 body {
   font-weight: 400;
-  font-size: 14px;
+  font-size: 20px;
   line-height: 1.21;
-  color: #131313;
+  color: rgba(255, 255, 255, 0.87);
   background: linear-gradient(45deg, #4568DC, #B06AB3);
 }
 img,
@@ -27,6 +27,17 @@ ul {
 a {
   text-decoration: none;
   color: inherit;
+}
+/* main title attributes */
+.title {
+  font-size: 24px;
+  text-transform: capitalize;
+  text-align: center;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+  margin-left: auto;
+  margin-right: auto;
+  letter-spacing: 0.04em;
 }
 .container {
   width: 100%;
@@ -180,7 +191,6 @@ a {
 /* !button-modal */
 button {
   display: block;
-  margin: auto;
   padding: 15px 25px;
   border-radius: 10px;
   text-transform: uppercase;
@@ -190,7 +200,8 @@ button {
   color: #fff;
   cursor: pointer;
   transition: .5s;
-  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 button:hover {
@@ -198,103 +209,39 @@ button:hover {
   border-color: rgba(0, 0, 0, 0.3);
 }
 /* !/button-modal */
-/* !SECTION team */
+/* !SECTION BIKE */
 .bike__inner{
-  display: flex;
-  justify-content: space-around;
-  flex-direction: column;
-  /* padding: 10px; */
-  margin-bottom: 2px;
-}
-.bike__column{
   display: flex;
   flex-direction: column;
   margin-bottom: 24px;
 }
-.bike__column-slider{
-  /* margin-left: 30px; */
-  display: flex;
-}
-.bike__title{
-  font-weight: 700;
-  font-size: 64px;
-  line-height: 77px;
-  margin: 0 0 5px;
+.bike__title {
+  max-width: 290px;
+  margin-bottom: 8px;
 }
 .bike__subtitle{
-  margin: 0 0 60px;
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 39px;
-  color: #6f6f6f;
-  margin-left: 100px; 
+  font-weight: 600;
+  text-align: center;
+  text-transform: capitalize;
+  color: #000000;
+}
+.bike__title-wrapper{
+  margin-bottom: 24px;
+}
+.bike-column__title{
+  font-size: 16px;
+  color: #000;
 }
 .bike__text{
-  font-size: 20px;
   text-align: justify;
-  color: rgba(255, 255, 255, 0.87);
-  text-justify: inter-word;
 }
-.openModal{
-  margin-top: 50px;
-  display: inline-block;
-  background-color: #131313;
-  color: #000000;
-  padding: 28px 81px;
-  text-transform: uppercase;
-  font-size: 20px;
-  line-height: 24px;
-  letter-spacing: 1.1em;
-  border: 1px rgb(4, 0, 255);
-  text-decoration: bold;
-}
-/* that's all about my srcd button */
-.openCar{
-  margin-top: 50px;
-  display: inline-block;
-  background-color: #131313;
-  color: #000000;
-  padding: 28px 81px;
-  text-transform: uppercase;
-  font-size: 20px;
-  line-height: 24px;
-  letter-spacing: 1.1em;
-  border: 1px rgb(4, 0, 255);
-  text-decoration: bold;
-  max-width: 100%;
-  text-align: center;
-  
-}
-.openCar{
-  background-color: #b8c9ff;
-  transition: all .3s;
-  text-decoration: bold;
-  max-width: 100%;
-  text-align: center;
-}
-.openCar:hover{
-  background-color: #ffda08;
-  color: #000000;
-  font-size: bold;
-  transition: 1;
-  border-radius: 80px;
-  max-width: 100%;
-  text-align: center;
-}
-.beautiful_bitton{
-  margin-left: 0px;
-  margin-right: 0px;
-  max-width: 100%;
-  text-align: center;
-}
-/* here the place when i am finished to do my button */
 .bike__list{
   display: flex;
   justify-content: space-around;
   text-align: center;
 
 }
-.bike-slider__item{
+.bike-slider__img{
   width: 100%;
   height: 100%;
   border-radius: 10px;
@@ -321,9 +268,100 @@ button:hover {
   color: rgb(236, 236, 236);
   font-weight: 600;
 }
-.bike__text1{
+.short-title{
+  color: #000000;
+  font-weight: 600;
   font-size: 22px;
-  max-width: 300px;
+  justify-content: center;
+  display: flex;
+}
+/* !open Modal windows */
+.openModal {
+  margin-top: 50px;
+  display: inline-block;
+  background-color: #131313;
+  color: #000000;
+  padding: 28px 81px;
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 1.1em;
+  border: 1px rgb(4, 0, 255);
+  text-decoration: bold;
+}
+
+/* that's all about my srcd button */
+.openCar {
+  margin-top: 50px;
+  display: inline-block;
+  background-color: #131313;
+  color: #000000;
+  padding: 28px 81px;
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 1.1em;
+  border: 1px rgb(4, 0, 255);
+  text-decoration: bold;
+  max-width: 100%;
+  text-align: center;
+
+}
+
+.openCar {
+  background-color: #b8c9ff;
+  transition: all .3s;
+  text-decoration: bold;
+  max-width: 100%;
+  text-align: center;
+}
+
+.openCar:hover {
+  background-color: #ffda08;
+  color: #000000;
+  font-size: bold;
+  transition: 1;
+  border-radius: 80px;
+  max-width: 100%;
+  text-align: center;
+}
+
+.beautiful_bitton {
+  margin-left: 0px;
+  margin-right: 0px;
+  max-width: 100%;
+  text-align: center;
+}
+
+/* here the place when i am finished to do my button */
+/* !SECTION----INFO--SECTION */
+.info__title {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.info__item {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.info section {
+  font-size: 22px;
+}
+
+.info__item-text {
+  font-size: 20px;
+  line-height: 20px;
+  text-align: justify;
+  color: rgba(255, 255, 255, 0.87);
+  margin-bottom: 20px;
+}
+
+/* !/SECTION----INFO--SECTION */
+/* !SECTION -------ANIMATOR */
+.animator-title {
+  font-size: 30px;
   text-align: center;
   display: flex;
   margin-bottom: 8px;
@@ -331,14 +369,95 @@ button:hover {
   color: rgb(0, 0, 0);
   margin-left: auto;
   margin-right: auto;
-  text-justify: inter-word;
+  margin-bottom: 20px;
 }
-.short-title{
-  color: #000000;
-  font-weight: 600;
-  font-size: 22px;
-  justify-content: center;
+
+.poo1 {
   display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px rgb(255, 255, 255);
+  width: 100%;
+}
+
+/* !/SECTION------ANIMATOR */
+/* !SECTION------window modal*/
+.modal-window {
+  display: block;
+  margin: auto;
+  padding: 15px 25px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  cursor: pointer;
+  transition: .5s;
+  margin-bottom: 30px;
+}
+
+.modal-window:hover {
+  background: rgba(0, 0, 0, 0.5);
+  border-color: rgba(0, 0, 0, 0.3);
+}
+
+/* !/SECTION------window modal */
+/* !/FOTTER-DISTRBUTED SECTION */
+.footer-section {
+  background-color: #333;
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
+.footer-title {
+  color: inherit;
+  margin-bottom: 12px;
+}
+.footer-about,
+.footer-social,
+.footer-social-form-imput {
+  margin-bottom: 24px;
+}
+
+.footer-wrapper {
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-address-item {
+  font-size: 22px;
+  text-align: center;
+}
+
+.footer-about-discribe {
+  font-size: 16px;
+  text-align: justify;
+}
+
+.footer-social-discribe {
+  font-size: 16px;
+  text-align: justify;
+  margin-bottom: 4px;
+}
+
+.footer-social-form-imput {
+  outline: none;
+  width: 100%;
+  border: #000000;
+  height: 24px;
+  border-radius: 2px;
+}
+
+.ooter-social button[type="submit"] {
+  background-color: #fff;
+  color: #333;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 /* !375px -  425px */
 @media screen and (min-width: 375px) {
@@ -376,9 +495,9 @@ button:hover {
   /* .header{
     background-color: rgb(75, 75, 75);
   } */
-  .animator-section{
-    
-  }
+  /* .color-list1{
+        display: flex;
+  } */
   .animator-title{
     width: 500px;
     font-size: 48px;
@@ -403,7 +522,7 @@ button:hover {
   .bike-slider{
     box-shadow: none;
   }
-  .bike__text1{
+  .bike__title{
     max-width: 500px;
     font-size: 60px;
   }
@@ -515,154 +634,10 @@ button:hover {
     height: 90%;
   }
 }
-/* !SECTION----INFO--SECTION */
-.container{
-  max-width: 320px;
-}
-.info__item-title {
-  font-size: 25px;
-  text-align: center;
-  display: flex;
-  margin-bottom: 8px;
-  font-weight: 900;
-  color: rgb(0, 0, 0);
-  margin-left: auto;
-  margin-right: auto;
-}
-.info__item{
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-}
-.info section{
-  font-size: 22px;
-}
-.info__item-text{
-  font-size: 20px;
-  line-height: 20px;
-  text-align:justify;
-  color: rgba(255, 255, 255, 0.87);
-  margin-bottom: 20px;
-}
-/* !/SECTION----INFO--SECTION */
-/* !SECTION -------ANIMATOR */
-.animator-title{
-  font-size: 30px;
-  text-align: center;
-  display: flex;
-  margin-bottom: 8px;
-  font-weight: 900;
-  color: rgb(0, 0, 0);
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 20px;
-}
-.poo1{
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 20px;
-  border-radius: 10px;
-  box-shadow: 5px 5px 20px rgb(255, 255, 255);
-  width: 100%;
-}
-/* !/SECTION------ANIMATOR */
-/* !SECTION------window modal*/
-.modal-window{
-  display: block;
-  margin: auto;
-  padding: 15px 25px;
-  border-radius: 10px;
-  text-transform: uppercase;
-  font-weight: bold;
-  background: transparent;
-  border: 1px solid #fff;
-  color: #fff;
-  cursor: pointer;
-  transition: .5s;
-  margin-bottom: 30px;
-}
-.modal-window:hover {
-  background: rgba(0, 0, 0, 0.5);
-  border-color: rgba(0, 0, 0, 0.3);
-}
-/* !/SECTION------window modal */
 /* !/FOTTER-DISTRBUTED SECTION */
-.footer-section {
-  background-color: #333;
-  color: #fff;
-  padding-top: 24px;
-}
+/* @media screen and (min-width: 425px) {
 
-.footer-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  justify-content: space-between;
-}
-
-.column {
-  flex-basis: 23%;
-}
-
-.column h3 {
-  font-size: 35px;
-  margin-bottom: 10px;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.column ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  color: #d1d1d1;
-  font-size: 25px;
-  text-align: center;
-}
-
-.column li {
-  margin-bottom: 5px;
-}
-.short-discribe{
-  font-size: 18px;
-  text-align: justify;
-  margin-left: auto;
-  margin-right: auto;
-  color: #d1d1d1;
-}
-.fotter-logo{
-  width: 100px;
-}
-.column a {
-  color: #fff;
-  text-decoration: none;
-}
-.discribe{
-  font-size: 17px;
-  text-align: justify;
-  margin-left: auto;
-  margin-right: auto;
-  color: #d1d1d1;
-}
-.column input[type="email"] {
-  padding: 10px;
-  margin-bottom: 10px;
-  width: 100%;
-}
-
-.column button[type="submit"] {
-  background-color: #fff;
-  color: #333;
-  padding: 10px 20px;
-  border:t none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-/* !/FOTTER-DISTRBUTED SECTION */
-@media screen and (min-width: 425px) {
-
-  .bike__text1 {
+  .bike__title {
     min-width: 400px;
     font-size: 30px;
     text-justify: inter-word;
@@ -712,7 +687,7 @@ button:hover {
   .bike-list-item-place{
     margin-top: 8px;
   }
-}
+} */
 /* .team{
   padding: 100px 0 150px;
 }
