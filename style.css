@@ -7,6 +7,9 @@ body {
   background: linear-gradient(45deg, #4568DC, #B06AB3);
   text-align: justify;
 }
+html{
+  scroll-behavior: smooth;
+}
 img,
 h1,
 h2,
