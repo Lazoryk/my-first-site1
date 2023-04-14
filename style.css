@@ -126,7 +126,6 @@ a {
   font-size: 45px;
   
 }
-
 .header-menu-link-agency:hover {
   background-color: #ff6f93;
   color: black;
@@ -476,8 +475,6 @@ button:hover {
   width: 100%;
   height: 100%;
 }
-
-
 /* !/SECTION------ANIMATOR */
 /* !SECTION------window modal*/
 .modal-window-section{
@@ -507,7 +504,7 @@ button:hover {
 .footer-section {
   background-color: #333;
   padding-top: 36px;
-  padding-bottom: 36px;
+  margin-top: 25px;
 }
 .footer-title {
   color: inherit;
@@ -557,6 +554,14 @@ button:hover {
   border-radius: 5px;
   cursor: pointer;
 }
+.footer-address-list{
+  text-align: center;
+}
+.social-network{
+  width: 90px;
+  padding-top: 15px;
+  padding: 18px;
+}
 /* !375px -  425px */
 @media screen and (min-width: 375px) {
   .images{
@@ -568,6 +573,10 @@ button:hover {
   .team-section{
     margin-left: auto;
     margin-right: auto;
+  }
+  .social-network{
+    width: 90px;
+    padding: 10px;
   }
 }
 /* !425px -  540px */
@@ -722,6 +731,13 @@ button:hover {
   .footer-address-item {
     font-size: 20px;
   }
+
+/* !icons */
+  .social-network{
+    width: 50px;
+    padding: 5px;
+  }
+
 
 
 }
