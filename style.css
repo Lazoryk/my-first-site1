@@ -632,61 +632,6 @@ button:hover {
 }
 /* !620px -  768px */
 @media screen and (min-width: 768px) {
-  /* .header{
-    background-color: rgb(75, 75, 75);
-  } */
-  /* .color-list1{
-        display: flex;
-  } */
-  /* .button{
-    padding: 27px 55px;
-    font-size: 19px;
-  }
-  .bike__inner{
-    margin-bottom: 15px;
-  }
-  .bike__list-item{
-    font-size: 24px;
-  }
-  .bike-slider__item{
-    width: 700px;
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-    box-shadow: 6px 8px 15px rgb(0, 0, 0);
-  }
-  .bike-slider{
-    box-shadow: none;
-  }
-  .bike__title{
-    max-width: 500px;
-    font-size: 60px;
-  }
-  .header-menu-list{
-    font-size: 40px;
-  }
-  .container {
-    min-width: 768px;
-  }
-  .header-menu-item{
-    border: none;
-  }
-  .header-wrapper {
-    display: flex;
-    flex-direction: inherit;
-  }
-  .header-logo-img {
-    width: 400px;
-  }
-  .header-menu {
-    color: #f2f557;
-  }
-  .header-menu-item {
-    font-size: 30px;
-  }
-  .header-menu-link {
-    padding: 12px 12px;
-  } */
   /* !header section */
     .container {
       max-width: 768px;
@@ -696,7 +641,7 @@ button:hover {
       flex-direction: row;
     }
     .header-logo-link {
-      width: 300px;
+      width: 320px;
     }
     .header-menu-list {
       column-gap: 10px;
@@ -770,7 +715,7 @@ button:hover {
     font-size: 14px;
   }
   .footer-social-discribe {
-    font-size: 10px;
+    font-size: 13px;
   }
 
   .footer-address-item {
@@ -801,16 +746,25 @@ button:hover {
   }
 
   .header-menu-item {
-    font-size: 48px;
+    font-size: 45px;
   }
-
-  .header-menu-link {
-    padding: 40px 12px;
+  .footer-about-discribe{
+    font-size: 16px;
+  }
+  .footer-social-discribe{
+    font-size: 15px;
   }
   /* !SECTION-ANIMATOR */
   .animator-list{
     flex-wrap: nowrap;
     gap: 12px;
+  }
+  .bike__text{
+    font-size: 22px;
+  }
+  .button{
+    font-size: 20px;
+    padding: 25px 25px;
   }
   /* !SECTION-ANIMATOR */
 }
@@ -840,6 +794,24 @@ button:hover {
   }
   .header-menu-item {
     font-size: 64px;
+  }
+  .header-logo-link{
+    width: 620px;
+  }
+  .header-menu-item{
+    font-size: 47px;
+  }
+  .bike__text{
+    font-size: 28px;
+  }
+  .footer-about-discribe{
+    font-size: 20px;
+  }
+  .footer-social-discribe{
+    font-size: 20px;
+  }
+  .footer-address-item{
+    font-size: 23px;
   }
 }
 @media(max-width:550px) {
