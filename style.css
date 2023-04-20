@@ -3,8 +3,8 @@ body {
   font-weight: 400;
   font-size: 20px;
   line-height: 1.21;
-  color: rgba(255, 255, 255, 0.87);
-  background: linear-gradient(45deg, #4568DC, #B06AB3);
+  color: rgba(0, 0, 0, 0.87);
+  background: linear-gradient(45deg, #f1b2ee, #f5d2f7);
   text-align: justify;
 }
 html{
@@ -72,7 +72,7 @@ a {
   font-size: 15px;
   margin: 15px;
   margin-top: 0.25em;
-  color: #f1f1f1;
+  color: #ffffff;
 }
 .animator-item{
   position: relative;
@@ -92,8 +92,8 @@ a {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 /* !0px - 375px */
 /*  !  ------------HEDER --------------*/
@@ -101,6 +101,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: 'EB Garamond', serif;
 }
 
 .header-logo-link {
@@ -109,6 +110,8 @@ a {
 
 .header-logo-img {
   width: 100%;
+  box-shadow: 1px 2px 20px rgb(0 0 0 / 39%); 
+  border-radius: 165px;
 }
 
 .header-menu {
@@ -129,15 +132,16 @@ a {
   align-items: center;
 }
 .header-menu-item {
-  font-size: 48px;
+  font-size: 36px;
   font-weight: bold;
   text-transform: uppercase;
   background: transparent;
-  border: 1px solid #fff;
+  border: 1px solid #000000;
   border-radius: 10px;
-  color: #fff;
+  color: #000000;
   cursor: pointer;
   padding: 8px 8px;
+  background-color: rgba(255, 140, 140, 0.479);
 }
 .header-menu-link {
   transition: .5s;
@@ -189,15 +193,29 @@ button {
   text-transform: uppercase;
   font-weight: bold;
   background: transparent;
-  border: 1px solid #fff;
-  color: #fff;
+  border: 1px solid #d4d4d4;
+  color: #ebebeb;
   cursor: pointer;
   transition: .5s;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 15px;
 }
-
+.button12{
+  display: block;
+  padding: 15px 25px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  background: transparent;
+  border: 1px solid #363636;
+  color: #000000;
+  cursor: pointer;
+  transition: .5s;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+}
 button:hover {
   background: rgba(0, 0, 0, 0.5);
   border-color: rgba(0, 0, 0, 0.3);
@@ -232,6 +250,7 @@ button:hover {
 }
 .bike__text{
   text-align: justify;
+  font-size: 19px;
 }
 .bike__list{
   display: flex;
@@ -262,7 +281,7 @@ button:hover {
   font-size: 15px;
   line-height: 10px;
   text-transform: lowercase;
-  color: rgb(236, 236, 236);
+  color: rgb(0, 0, 0);
   font-weight: 600;
 }
 .short-title{
@@ -514,7 +533,7 @@ button:hover {
   margin-left: auto;
   margin-right: auto;
   border-radius: 10px;
-  box-shadow: 5px 5px 20px rgb(255, 255, 255);
+  box-shadow: 2px 5px 70px rgb(255, 176, 235);
   width: 100%;
   height: 100%;
 }
@@ -552,6 +571,7 @@ button:hover {
 .footer-title {
   color: inherit;
   margin-bottom: 12px;
+  color: rgb(241, 241, 241);
 }
 .footer-about,
 .footer-social,
@@ -563,6 +583,7 @@ button:hover {
   max-width: 480px;
   margin-left: auto;
   margin-right: auto;
+  color: rgb(209, 209, 209);
 }
 
 .footer-address-item {
@@ -590,7 +611,7 @@ button:hover {
 
 .ooter-social button[type="submit"] {
   background-color: #fff;
-  color: #333;
+  color: #ffffff;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
@@ -730,9 +751,6 @@ button:hover {
     width: 50px;
     padding: 5px;
   }
-
-
-
 }
 /* !896px -  1024px */
 @media screen and (min-width: 1024px) {
