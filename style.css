@@ -92,8 +92,8 @@ a {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 /* !0px - 375px */
 /*  !  ------------HEDER --------------*/
@@ -111,7 +111,7 @@ a {
 .header-logo-img {
   width: 100%;
   box-shadow: 1px 2px 20px rgb(0 0 0 / 39%); 
-  border-radius: 165px;
+  border-radius: 537px;
 }
 
 .header-menu {
@@ -242,7 +242,7 @@ button:hover {
   color: #000000;
 }
 .bike__title-wrapper{
-  margin-bottom: 24px;
+  margin-bottom: 20px;
 }
 .bike-column__title{
   font-size: 16px;
@@ -281,7 +281,7 @@ button:hover {
   font-size: 15px;
   line-height: 10px;
   text-transform: lowercase;
-  color: rgb(0, 0, 0);
+  color: rgb(34, 34, 34);
   font-weight: 600;
 }
 .short-title{
@@ -763,7 +763,7 @@ button:hover {
   }
 
   .header-menu-list {
-    column-gap: 40px;
+    column-gap: 14px;
   }
 
   .header-menu-item {
@@ -811,7 +811,7 @@ button:hover {
     width: 1439px;
   }
   .header-menu-list {
-    column-gap: 60px;
+    column-gap: 50px;
   }
   .header-menu-item {
     font-size: 64px;
