@@ -641,6 +641,9 @@ box-shadow: 2px 5px 70px rgb(255 146 227);
     width: 90px;
     padding: 10px;
   }
+  .header-menu-item{
+    font-size: 42px;
+  }
 }
 /* !425px -  540px */
 @media screen and (min-width: 425px) {
